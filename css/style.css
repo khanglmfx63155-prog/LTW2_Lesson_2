@@ -1,0 +1,64 @@
+.multimedia {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 15px;
+  height: auto;
+  padding: 15px;
+}
+
+.picture-section,
+.video-section,
+.audio-section {
+  max-width: 100%;
+  margin-bottom: 50px;
+  float: left;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 30px;
+}
+
+.picture-section {
+  background-color: pink;
+}
+
+.picture-section img {
+  max-width: 100%;
+  width: 95%;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.video-section {
+  background-color: #a4d0a4;
+  max-width: 100%;
+  width: 95%;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.audio-section {
+  background-color: #9e9eff;
+}
+
+ul {
+  padding: 0px;
+}
+
+body {
+  background-image: url("../asset/background.webp");
+  background-position: center;
+  background-size: cover; /* co ảnh để phủ kín chiều ngang */
+  max-width: 100%;
+  max-height: 100%;
+  height: 1100px;
+}
+
+h1 {
+  display: flex;
+  width: fit-content;
+  font-size: 36px;
+  background-color: white;
+}
